@@ -80,3 +80,4 @@ for sub_cluster in (list(set(subcluster_list_sorted))):
     sub_cluster_label = subsubname_dict[sub_cluster]
     st.markdown(f""" <font color={sub_colour_select} style='bold'> {sub_cluster} : {sub_cluster_label} </font>""", unsafe_allow_html = True)
 
+st.markdown("<p style='text-align: center; color: black;'>Read the technical methodology <a 'href=https://docs.google.com/document/d/1wtWzpK5toAi-VH3vt_rxOKM97x5l1T4B3hKsqQUfvo0/edit?usp=sharing' target = _blank>here</a><p>", unsafe_allow_html = True)
